@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PawPos.Domain\PawPos.Domain.csproj" />
+    <ProjectReference Include="..\PawPos.Infrastructure\PawPos.Infrastructure.csproj" />
+    <ProjectReference Include="..\PawPos.Repository\PawPos.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawPos.Repository", "src\PawPos.Repository\PawPos.Repository.csproj", "{97520FE1-7251-4E71-9909-2FE00C179E4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawPos.Domain", "src\PawPos.Domain\PawPos.Domain.csproj", "{ECE6961F-ECC5-47B9-95A5-53E6BC67E7DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawPos.MongoRepository", "src\PawPos.MongoRepository\PawPos.MongoRepository.csproj", "{B636D9CF-D5E1-4EB7-8743-E6D3FCFF7E00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawPos.Infrastructure", "src\PawPos.Infrastructure\PawPos.Infrastructure.csproj", "{4B2BDD33-7CE3-4446-AFB2-BA639D16119D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawPos.Model", "src\PawPos.Model\PawPos.Model.csproj", "{10D99B61-93A7-4ECE-97DB-2DA86C96F8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PawPos.EFRepository", "src\PawPos.EFRepository\PawPos.EFRepository.csproj", "{F7944921-6BD3-4594-A6F5-6B971C475FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97520FE1-7251-4E71-9909-2FE00C179E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97520FE1-7251-4E71-9909-2FE00C179E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97520FE1-7251-4E71-9909-2FE00C179E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97520FE1-7251-4E71-9909-2FE00C179E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE6961F-ECC5-47B9-95A5-53E6BC67E7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE6961F-ECC5-47B9-95A5-53E6BC67E7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE6961F-ECC5-47B9-95A5-53E6BC67E7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE6961F-ECC5-47B9-95A5-53E6BC67E7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B636D9CF-D5E1-4EB7-8743-E6D3FCFF7E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B636D9CF-D5E1-4EB7-8743-E6D3FCFF7E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B636D9CF-D5E1-4EB7-8743-E6D3FCFF7E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B636D9CF-D5E1-4EB7-8743-E6D3FCFF7E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2BDD33-7CE3-4446-AFB2-BA639D16119D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2BDD33-7CE3-4446-AFB2-BA639D16119D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2BDD33-7CE3-4446-AFB2-BA639D16119D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2BDD33-7CE3-4446-AFB2-BA639D16119D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D99B61-93A7-4ECE-97DB-2DA86C96F8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D99B61-93A7-4ECE-97DB-2DA86C96F8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D99B61-93A7-4ECE-97DB-2DA86C96F8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D99B61-93A7-4ECE-97DB-2DA86C96F8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7944921-6BD3-4594-A6F5-6B971C475FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7944921-6BD3-4594-A6F5-6B971C475FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7944921-6BD3-4594-A6F5-6B971C475FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7944921-6BD3-4594-A6F5-6B971C475FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E344FEB4-BB1E-4E07-A430-519FD2AEAB94}
+	EndGlobalSection
+EndGlobal
